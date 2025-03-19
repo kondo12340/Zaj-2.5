@@ -1,14 +1,14 @@
-// import static org.junit.jupiter.api.Assertions.assertEquals;
-
-// import org.junit.jupiter.api.Test;
+import java.util.Scanner;
 
 public class Main {
   public static void main(String[] args) {
-    System.out.println("Hello world!");
+    System.out.println("Podaje temperature w stopniach Celsjusza");
+    Scanner scan = new Scanner(System.in);
+    double celsjusz = scan.nextDouble();
+    double fahrenheit = (celsjusz * 9 / 5) + 32;
+    System.out.println("Temperatura w stopniach Fahrenheita: " + fahren
+                      
   }
 
-  // @Test
-  // void addition() {
-  //     assertEquals(2, 1 + 1);
-  // }
+
 }

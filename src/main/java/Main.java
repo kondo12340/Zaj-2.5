@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class Main {
@@ -6,9 +7,7 @@ public class Main {
     Scanner scan = new Scanner(System.in);
     double celsjusz = scan.nextDouble();
     double fahrenheit = (celsjusz * 9 / 5) + 32;
-    System.out.println("Temperatura w stopniach Fahrenheita: " + fahren
-                      
+    System.out.println("Temperatura w stopniach Fahrenheita: " + fahrenheit);
+    scan.close();
   }
-
-
-}
+} 
